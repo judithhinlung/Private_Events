@@ -1,6 +1,6 @@
 module ApplicationHelper
   def full_title(page_title = '')
-    base_title = "Private Events"
+    base_title = "Members Only"
     if page_title.empty?
       base_title
     else
